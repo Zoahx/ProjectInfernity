@@ -1,0 +1,63 @@
+{
+	"name": "SamplePlayerHud",
+	"plugin-id": "Sprite",
+	"sid": 745475875149043,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 402799419094934
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 667,
+						"height": 261,
+						"originX": 0.4962518740629685,
+						"originY": 0.49616858237547895,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6614846,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.49616858237547895,
+								1,
+								1,
+								0.4962518740629685,
+								1,
+								0,
+								1,
+								0,
+								0.49616858237547895,
+								0,
+								0,
+								0.4962518740629685,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 510792519887881,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

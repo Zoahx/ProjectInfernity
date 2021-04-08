@@ -1,0 +1,63 @@
+{
+	"name": "AlphaPlayer",
+	"plugin-id": "Sprite",
+	"sid": 363628643318790,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 503437018377540
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 230,
+						"height": 228,
+						"originX": 0.49782608695652175,
+						"originY": 0.29385964912280704,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8289669,
+						"collisionPoly": {
+							"points": [
+								0.23478260869565226,
+								0.06578947368421047,
+								0.49782608695652175,
+								0.11403508771929824,
+								0.6521739130434784,
+								0.17105263157894737,
+								0.7043478260869565,
+								0.29385964912280704,
+								0.9347826086956522,
+								0.6973684210526315,
+								0.49782608695652175,
+								0.8991228070175439,
+								0.33913043478260874,
+								0.41228070175438597,
+								0.15217391304347816,
+								0.29385964912280704
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 672569994352655,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 232222814767712
+				}
+			],
+			"actions": [],
+			"sid": 852611982284451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 115172413921008
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "ScrollToTest",
+					"sid": 715495441021017,
+					"parameters": {
+						"x": "TilePlayer.x",
+						"y": "TilePlayer.y - 182"
+					}
+				}
+			],
+			"sid": 652852393906177
+		}
+	],
+	"sid": 877188867938562
+}

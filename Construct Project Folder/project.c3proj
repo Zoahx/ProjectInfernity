@@ -5,11 +5,101 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		}
+	],
 	"uniqueId": "9trrjqby9e9",
 	"objectTypes": {
-		"items": [],
-		"subfolders": []
+		"items": [
+			"AlphaHudChar",
+			"MoveButtonSample",
+			"SamplePlayerHud",
+			"TilePlayer",
+			"SampleTile",
+			"HudSampleBg",
+			"ScrollToTest"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Bg_Area_0"
+				],
+				"subfolders": [],
+				"name": "Background"
+			},
+			{
+				"items": [],
+				"subfolders": [],
+				"name": "TileMaps"
+			},
+			{
+				"items": [
+					"AlphaPlayer"
+				],
+				"subfolders": [],
+				"name": "Character"
+			},
+			{
+				"items": [],
+				"subfolders": [],
+				"name": "Images"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],
@@ -19,12 +109,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Alpha",
+			"Alpha2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
-		"items": [],
+		"items": [
+			"Event sheet 1"
+		],
 		"subfolders": []
 	},
 	"rootFileFolders": {
