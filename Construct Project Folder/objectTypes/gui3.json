@@ -1,40 +1,49 @@
 {
-	"name": "HudSampleBg",
+	"name": "gUI3",
 	"plugin-id": "Sprite",
-	"sid": 683959107093218,
-	"isGlobal": true,
+	"sid": 236182534516641,
+	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Anchor",
-			"name": "Anchor",
-			"sid": 612321139951227
-		},
-		{
-			"behaviorId": "Persist",
-			"name": "Persist",
-			"sid": 174821290013053
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 152,
+						"height": 57,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4241012,
+						"imageSpriteId": 2913279,
+						"collisionPoly": {
+							"points": [
+								0.046052631578947345,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								0.07236842105263158,
+								1,
+								0.013157894736842105,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 747488079200075,
+				"sid": 121813588269949,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

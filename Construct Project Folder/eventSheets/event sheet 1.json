@@ -19,21 +19,164 @@
 				{
 					"id": "every-tick",
 					"objectClass": "System",
-					"sid": 115172413921008
+					"sid": 847887381533686
 				}
 			],
 			"actions": [
 				{
 					"id": "set-position",
 					"objectClass": "ScrollToTest",
-					"sid": 715495441021017,
+					"sid": 808169985038020,
 					"parameters": {
-						"x": "TilePlayer.x",
-						"y": "TilePlayer.y - 182"
+						"x": "TilePlayer.X ",
+						"y": "TilePlayer.Y - 300"
 					}
 				}
 			],
 			"sid": 652852393906177
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 865854367245051
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "CaveShadow",
+					"sid": 638575786934508,
+					"parameters": {
+						"object": "TilePlayer",
+						"image-point-optional": "1"
+					}
+				}
+			],
+			"sid": 311483157409560
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "MoveButtonSample",
+					"sid": 227977389601649
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 978321150225689,
+					"parameters": {
+						"layout": "AlphaDungeon_1"
+					}
+				}
+			],
+			"sid": 488506208531475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 367747840275104,
+					"parameters": {
+						"object": "Dow"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "TilePlayer",
+					"sid": 731435362542274,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "down"
+					}
+				}
+			],
+			"sid": 456533437707568
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 924952493854380,
+					"parameters": {
+						"object": "lef"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "TilePlayer",
+					"sid": 232185224547105,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 255725741604346
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 413829321973861,
+					"parameters": {
+						"object": "righ"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "TilePlayer",
+					"sid": 992963040980780,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 863739971796371
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 642106162140934,
+					"parameters": {
+						"object": "uup"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "TilePlayer",
+					"sid": 902580900369839,
+					"behaviorType": "TileMovement",
+					"parameters": {
+						"control": "up"
+					}
+				}
+			],
+			"sid": 249213443104896
 		}
 	],
 	"sid": 877188867938562

@@ -31,9 +31,33 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "shadowlight",
+			"name": "Shadow light",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Anchor",
 			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persist",
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
@@ -72,7 +96,11 @@
 			"TilePlayer",
 			"SampleTile",
 			"HudSampleBg",
-			"ScrollToTest"
+			"ScrollToTest",
+			"Gui4",
+			"CaveShadow",
+			"ShadowLight",
+			"Touch"
 		],
 		"subfolders": [
 			{
@@ -95,7 +123,18 @@
 				"name": "Character"
 			},
 			{
-				"items": [],
+				"items": [
+					"GuiVarious",
+					"lef",
+					"gUI3",
+					"gUI5",
+					"gUI6",
+					"gUI7",
+					"righ",
+					"uup",
+					"gui10",
+					"Dow"
+				],
 				"subfolders": [],
 				"name": "Images"
 			}
@@ -110,7 +149,8 @@
 	"layouts": {
 		"items": [
 			"Alpha",
-			"Alpha2"
+			"Alpha2",
+			"AlphaDungeon_1"
 		],
 		"subfolders": []
 	},
@@ -242,7 +282,7 @@
 		"appId": "silver.Infernity",
 		"pixelRounding": false,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-scale",
+		"fullscreenMode": "letterbox-integer-scale",
 		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
@@ -282,5 +322,5 @@
 	},
 	"viewportWidth": 1080,
 	"viewportHeight": 1920,
-	"firstLayout": null
+	"firstLayout": "AlphaDungeon_1"
 }

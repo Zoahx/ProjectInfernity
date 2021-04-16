@@ -203,6 +203,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -329,6 +332,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {

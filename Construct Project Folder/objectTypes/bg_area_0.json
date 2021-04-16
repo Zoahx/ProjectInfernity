@@ -2,13 +2,18 @@
 	"name": "Bg_Area_0",
 	"plugin-id": "Sprite",
 	"sid": 829311500675091,
-	"isGlobal": false,
+	"isGlobal": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Anchor",
 			"name": "Anchor",
 			"sid": 382763443580374
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 166693889363497
 		}
 	],
 	"effectTypes": [],

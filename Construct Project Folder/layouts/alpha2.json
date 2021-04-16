@@ -102,6 +102,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -141,6 +144,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -180,6 +186,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -258,6 +267,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -297,6 +309,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -336,6 +351,9 @@
 								"bottom-edge": "none",
 								"enabled": true
 							}
+						},
+						"Persist": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -426,7 +444,7 @@
 						"width": 32,
 						"height": 32,
 						"originX": 0,
-						"originY": 0,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -519,7 +537,38 @@
 		{
 			"name": "Layer 3",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "MoveButtonSample",
+					"properties": {
+						"type": "button",
+						"text": "Move",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 323,
+						"y": 1068,
+						"width": 128,
+						"height": 160,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
 			"sid": 293435599478641,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

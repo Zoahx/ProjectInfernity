@@ -2,13 +2,18 @@
 	"name": "AlphaPlayer",
 	"plugin-id": "Sprite",
 	"sid": 363628643318790,
-	"isGlobal": false,
+	"isGlobal": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Anchor",
 			"name": "Anchor",
 			"sid": 503437018377540
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 795253563102763
 		}
 	],
 	"effectTypes": [],
